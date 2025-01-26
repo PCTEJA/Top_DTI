@@ -30,7 +30,7 @@ We propose **Top-DTI** framework for predicting Drug-Target Interaction (DTI)by 
 
     [Run Notebook: 03_LLM_embeddigns.ipynb](Notebooks/03_LLM_embeddigns.ipynb)
 
-4. **Evaluate the Model**  
+4. ** Top-DTI Evaluation and Results**  
    
     The embeddings generated from [Step 2: Topological Features](Notebooks/02_topological_features.ipynb) and [Step 3: Sequence-Based Embeddings](Notebooks/03_LLM_embeddigns.ipynb) are utilized to evaluate the performance of Top-DTI on benchmark datasets:
 
