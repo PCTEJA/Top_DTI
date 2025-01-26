@@ -28,7 +28,7 @@ We propose **Top-DTI** framework for predicting **Drug-Target Interaction (DTI)*
    [Run Notebook: 03_LLM_embeddigns.ipynb](Notebooks/03_LLM_embeddigns.ipynb)
 
 4. **Evaluate the Model**  
-   We utilize the embeddings generated from steps 2 and 3 to evaluate **Top-DTI** on benchmark datasets: **BioSNAP**, **Human**, and **Human Cold**.  
+   Utilize the embeddings generated from steps 2 and 3 to evaluate **Top-DTI** on benchmark datasets: **BioSNAP**, **Human**, and **Human Cold**.  
    - [BioSNAP Dataset Evaluation: biosnap_random.ipynb](Notebooks/biosnap_random.ipynb)  
    - [Human Dataset Evaluation: human_random.ipynb](Notebooks/human_random.ipynb)  
    - [Human Cold Dataset Evaluation: human_cold.ipynb](Notebooks/human_cold.ipynb)  
