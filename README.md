@@ -42,3 +42,11 @@ The public benchmark datasets are available in the [datasets](datasets) folder f
 - **BioSNAP** and **Human** datasets were obtained from [DrugLAMP repository](https://github.com/Lzcstan/DrugLAMP).  
 - **BioSNAP Unseen Drug** and **BioSNAP Unseen Target** datasets were sourced from [ConPLex_dev repository](https://github.com/samsledje/ConPLex_dev).
 
+## Installation Guide
+
+The environment.yml file and requirements.txt are provided in the main repository for your convenience.
+
+You can use the provided `environment.yml` file to create the required Conda environment:
+```bash
+conda env create -f environment.yml
+conda activate top_dti

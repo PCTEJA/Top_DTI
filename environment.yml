@@ -1,0 +1,34 @@
+name: top_dti
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - rdkit  # RDKit for SMILES and molecular operations
+  - pytorch  # PyTorch for deep learning
+  - torchvision
+  - torchaudio
+  - pytorch-lightning  # PyTorch Lightning framework
+  - transformers  # Hugging Face Transformers for LLMs
+  - torch-geometric  # GNN for relational learning
+  - giotto-tda  # Persistent homology and TDA
+  - ipykernel  # Jupyter Notebook kernel
+  - jupyterlab  # Jupyter environment
+  - tqdm  # Progress bars
+  - matplotlib-inline
+  - sentencepiece
+  - tokenizers
+  - pillow
+  - scipy
+  - pip:
+      - fair-esm  # ESM for protein embeddings
+      - datasets  # Hugging Face datasets
+      - safetensors  # Efficient tensor serialization
+      - lightning
+      - tensorboardx
+      - plotly
