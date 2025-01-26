@@ -18,11 +18,11 @@ We propose **Top-DTI** framework for predicting **Drug-Target Interaction (DTI)*
    [Run Notebook: 01_generate_images.ipynb](Notebooks/01_generate_images.ipynb)
 
 2. **Extract Topological Features**  
-   Extract topological features from drug molecular images and protein contact maps using **Persistent Homology (PH)**.  
+   Extract topological features from drug molecular images and protein contact maps using **Persistent Homology**.  
    [Run Notebook: 02_topological_features.ipynb](Notebooks/02_topological_features.ipynb)
 
 3. **Generate Sequence-Based Embeddings**  
-   Capture sequence-based features using pre-trained **Large Language Models (LLMs)**:  
+   Capture sequence-based features using pre-trained **LLMs**:  
    - **ProtT5**: For protein sequences.  
    - **MoLFormer**: For drug representations.  
    [Run Notebook: 03_LLM_embeddigns.ipynb](Notebooks/03_LLM_embeddigns.ipynb)
