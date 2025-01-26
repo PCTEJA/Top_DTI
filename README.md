@@ -35,10 +35,10 @@ We propose **Top-DTI** framework for predicting **Drug-Target Interaction (DTI)*
    - [Human Dataset Evaluation: human_random.ipynb](Notebooks/human_random.ipynb)  
    - [Human Cold Dataset Evaluation: human_cold.ipynb](Notebooks/human_cold.ipynb)  
 
-  ## Datasets
+## Datasets
 
-    The public benchmark datasets are available in the [Dataset folder](Dataset) for direct access.  
+The public benchmark datasets are available in the [Dataset folder](Dataset) for direct access.  
 
-    - **BioSNAP** and **Human** datasets were obtained from [DrugLAMP repository](https://github.com/Lzcstan/DrugLAMP).  
-    - **BioSNAP Unseen Drug** and **BioSNAP Unseen Target** datasets were sourced from [ConPLex_dev repository](https://github.com/samsledje/ConPLex_dev).
+- **BioSNAP** and **Human** datasets were obtained from [DrugLAMP repository](https://github.com/Lzcstan/DrugLAMP).  
+- **BioSNAP Unseen Drug** and **BioSNAP Unseen Target** datasets were sourced from [ConPLex_dev repository](https://github.com/samsledje/ConPLex_dev).
 
