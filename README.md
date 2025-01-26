@@ -39,8 +39,8 @@ We propose **Top-DTI** framework for predicting **Drug-Target Interaction (DTI)*
 
 The public benchmark datasets are available in the [datasets](datasets) folder for direct access.  
 
-- **BioSNAP** and **Human** datasets were obtained from [DrugLAMP repository](https://github.com/Lzcstan/DrugLAMP).  
-- **BioSNAP Unseen Drug** and **BioSNAP Unseen Target** datasets were sourced from [ConPLex_dev repository](https://github.com/samsledje/ConPLex_dev).
+- **BioSNAP** and **Human** datasets were obtained from [DrugLAMP](https://github.com/Lzcstan/DrugLAMP) repository.  
+- **BioSNAP Unseen Drug** and **BioSNAP Unseen Target** datasets were sourced from [ConPLex_dev](https://github.com/samsledje/ConPLex_dev) repository.
 
 ## Installation Guide
 
