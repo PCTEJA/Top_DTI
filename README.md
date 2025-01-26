@@ -14,7 +14,7 @@ We propose **Top-DTI** framework for predicting Drug-Target Interaction (DTI)by 
 1. **Generate 2D Representations**  
    Generate two-dimensional representations of drug molecular structures and protein contact maps to capture structural features:  
    - Drug Images: Generated from SMILES using the RDKit library.  
-   - Protein Contact Maps: Created using a [transformer-based contact prediction model](https://github.com/facebookresearch/esm).  
+   - Protein Contact Maps: Created using a transformer-based contact prediction model.  
    [Run Notebook: 01_generate_images.ipynb](Notebooks/01_generate_images.ipynb)
 
 2. **Extract Topological Features**  
