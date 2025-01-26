@@ -46,7 +46,7 @@ The public benchmark datasets are available in the [datasets](datasets) folder f
 
 The environment.yml file and requirements.txt are provided in the main repository for your convenience.
 
-You can use the provided `environment.yml` file to create the required Conda environment:
+The provided `environment.yml` file can be used to create the required Conda environment as follows:
 ```bash
 conda env create -f environment.yml
 conda activate top_dti
