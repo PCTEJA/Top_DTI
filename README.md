@@ -26,3 +26,11 @@ We propose **Top-DTI** framework for predicting **Drug-Target Interaction (DTI)*
    - **ProtT5**: For protein sequences.  
    - **MoLFormer**: For drug representations.  
    [Notebook: 03_LLM_embeddigns.ipynb](Notebooks/03_LLM_embeddigns.ipynb)
+4. **Model Evaluation and Results**  
+   Our results are evaluated on the **BioSNAP**, **Human**, and **Human Cold** benchmark datasets.  
+
+   The notebooks contain the complete pipeline:
+
+   - [BioSNAP Dataset: biosnap_random.ipynb](Notebooks/biosnap_random.ipynb)  
+   - [Human Dataset: human_random.ipynb](Notebooks/human_random.ipynb)  
+   - [Human Cold Dataset: human_cold.ipynb](Notebooks/human_cold.ipynb)
