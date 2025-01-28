@@ -19,7 +19,7 @@ We propose **Top-DTI** framework for predicting Drug-Target Interaction (DTI) by
     [Run Notebook: 01_generate_images.ipynb](Notebooks/01_generate_images.ipynb)
 
 2. **Extract Topological Features**  
-   Extract topological features from drug molecular images and protein contact maps using Persistent Homology. 
+   Extract topological features from drug molecular images and protein contact maps using Persistent Homology.
 
     [Run Notebook: 02_topological_features.ipynb](Notebooks/02_topological_features.ipynb)
 
@@ -39,6 +39,7 @@ We propose **Top-DTI** framework for predicting Drug-Target Interaction (DTI) by
     - [BioSNAP Unseen Target Dataset Evaluation: biosnap_unseen_target.ipynb](Notebooks/biosnap_unseen_target.ipynb)   
     - [Human Dataset Evaluation: human_random.ipynb](Notebooks/human_random.ipynb)  
     - [Human Cold Dataset Evaluation: human_cold.ipynb](Notebooks/human_cold.ipynb)  
+
 
 ## Datasets
 
