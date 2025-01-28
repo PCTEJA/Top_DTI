@@ -35,6 +35,8 @@ We propose **Top-DTI** framework for predicting Drug-Target Interaction (DTI) by
     The embeddings generated from [Step 2: Topological Features](Notebooks/02_topological_features.ipynb) and [Step 3: Sequence-Based Embeddings](Notebooks/03_LLM_embeddigns.ipynb) are utilized to evaluate the performance of Top-DTI on benchmark datasets:
 
     - [BioSNAP Dataset Evaluation: biosnap_random.ipynb](Notebooks/biosnap_random.ipynb)  
+    - [BioSNAP Unseen Drug Dataset Evaluation: biosnap_unseen_drug.ipynb](Notebooks/biosnap_unseen_drug.ipynb) 
+    - [BioSNAP Unseen Target Dataset Evaluation: biosnap_unseen_target.ipynb](Notebooks/biosnap_unseen_target.ipynb)   
     - [Human Dataset Evaluation: human_random.ipynb](Notebooks/human_random.ipynb)  
     - [Human Cold Dataset Evaluation: human_cold.ipynb](Notebooks/human_cold.ipynb)  
 
