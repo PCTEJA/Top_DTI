@@ -55,4 +55,6 @@ The environment.yml file and requirements.txt are provided in the main repositor
 The provided `environment.yml` file can be used to create the required Conda environment as follows:
 ```bash
 conda env create -f environment.yml
-conda activate top_dti
+conda activate prot_fun
+
+[![HitCount](https://hits.dwyl.com/bozdaglab/Top_DTI.svg?style=flat-square)](http://hits.dwyl.com/bozdaglab/Top_DTI)
