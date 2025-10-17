@@ -1,1 +1,3 @@
-molformer/data
+molformer/data/Pretrained_models/
+.venv/
+.python-version
