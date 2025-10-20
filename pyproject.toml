@@ -1,7 +1,87 @@
+[build-system]
+# This tells tools like uv and pip how to build your project
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "top-dti"
 version = "0.1.0"
-description = "Add your description here"
+description = "A project for..." # <-- Add your description
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+
+# These are the main libraries your application code imports
+dependencies = [
+    # Data Science & Math
+    "datasets",
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "sympy",
+    "tqdm",
+    
+    # PyTorch Ecosystem
+    "torch==2.8.0",
+    "torchaudio==2.8.0",
+    "torchvision==0.23.0",
+    "torch-geometric",
+    "lightning",
+    "torchmetrics",
+    "triton",
+    
+    # Transformers / Hugging Face
+    "transformers",
+    "huggingface-hub",
+    "tokenizers",
+    "sentencepiece",
+    "safetensors",
+    "einops",
+    "fair-esm",
+    "fast-transformer-pytorch",
+    "rotary-embedding-torch",
+    
+    # Plotting & Visualization
+    "matplotlib",
+    "plotly",
+    
+    # Cheminformatics & TDA
+    "rdkit",
+    "giotto-ph",
+    "giotto-tda",
+    "pyflagser",
+
+    # Utilities
+    "arrow",
+    "httpx",
+    "igraph",
+    "joblib",
+    "networkx",
+    "pillow",
+    "protobuf",
+    "pyarrow",
+    "pyyaml",
+    "regex",
+    "requests",
+    "tenacity",
+    "tensorboardx",
+    "hf-xet",
+]
+
+
+[project.optional-dependencies]
+# These are your tools for development (notebooks, debugging, etc.)
+# Install with: uv pip install -e .[dev]
+dev = [
+    "jupyterlab",
+    "ipykernel",
+    "ipywidgets",
+    "notebook",
+    "debugpy",
+]
+
+# --- UV Configuration for PyTorch CUDA ---
+
+# 1. Define the custom PyTorch index as a source
+[tool.uv.sources]
+pytorch_cu128 = { url = "https://download.pytorch.org/whl/cu128" }
